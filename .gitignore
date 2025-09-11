@@ -1,0 +1,19 @@
+# Ignore environment variable files
+.env
+
+# Ignore vector database files or folders
+vector_db/
+vector_db
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+
+# VS Code settings
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Log
