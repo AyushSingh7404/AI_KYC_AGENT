@@ -4,24 +4,6 @@
 
 ---
 
-## Table of Contents
-1. Introduction to KYC
-2. High-level Objectives & Global Standards
-3. AI KYC System Workflow (step-by-step)
-4. Document Requirements & Upload Rules (IMAGE ONLY)
-5. Text Extraction (AWS Textract) — integration notes
-6. Face Recognition & Liveliness (AWS Rekognition) — integration notes
-7. Video KYC — process & compliance
-8. System Architecture & Components
-9. Security, Privacy & Compliance Guidelines
-10. Benefits of AI-Powered KYC
-11. Guidance for Vectorizing this KB into ChromaDB (RAG)
-12. Frequently Asked Questions (Compiled & Deduplicated Q&A)
-13. Common Error Codes & Fixes
-14. Appendices: Logging, Retention, and Troubleshooting tips
-
----
-
 ## 1. Introduction to KYC
 **Know Your Customer (KYC)** is the set of processes and controls organizations use to verify and monitor the identity of their customers. KYC protects businesses and users by preventing identity theft, financial crime, and regulatory breaches. Modern KYC combines regulatory controls with AI-driven automation to make verification faster, more accurate, and auditable.
 
@@ -585,8 +567,5 @@ AI KYC is a digitally automated identity-verification process that uses OCR, fac
 - **Support tips:** expose helpful error messages and `session_id` to users so they can reference the case when contacting support. Provide visual guides and quick retry options in the UI to reduce support load.
 
 ---
-
-## Closing Notes
-This markdown is structured for clarity and direct ingestion into a vector DB like ChromaDB. To maximize retrieval quality, split the file into logical chunks (each FAQ as one chunk, plus separate sections for workflow, architecture, and error codes). Attach metadata tags and versioning so your RAG agent can provide accurate, up-to-date answers.
 
 **Reminder:** The system accepts image formats only. **Do not upload PDFs.**
